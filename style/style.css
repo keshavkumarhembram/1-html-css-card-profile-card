@@ -1,0 +1,156 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+/* COLORS */
+:root {
+    /* primary */
+    --brand-color: rgb(42, 38, 95);
+    --button: rgb(29, 24, 107);
+    /* neutral */
+    --dark: rgb(20, 16, 68);
+    --light: rgb(238, 237, 253);
+    --light-grey: rgb(211, 211, 245);
+    --background-blue: rgb(113, 117, 218);
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--light-grey);
+    background-color: var(--background-blue);
+}
+
+.profile-card {
+    width: 350px;
+    padding: 3rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 14px;
+    background-color: var(--light);
+    box-shadow: 0px 3px 8px var(--dark);
+}
+
+.profile-pic {
+    padding: 5px;
+    width: 160px;
+    border-radius: 90px;
+    filter: brightness(70%);
+    border: 3px solid var(--brand-color)
+}
+
+.profile-pic:hover {
+    transform: translateY(-5px);
+    filter: brightness(100%);
+}
+
+.details {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--brand-color);
+    border-radius: 0px 0px 14px 14px;
+}
+
+.name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.location img {
+    height: 1rem;
+    filter: invert();
+}
+
+.button {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button button {
+    width: 100px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 0px black;
+}
+
+.button button:hover {
+    transform: translateY(-3px);
+    color: white;
+    background-color: var(--button);
+}
+
+.skills {
+    margin-top: 30px 0px;
+    padding: 1rem 0rem;
+    border-top: 2px solid var(--dark);
+}
+
+.skills h2 {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.skills-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills-list li {
+    cursor: pointer;
+    padding: 0.1rem 1rem;
+    margin: 2px 0px;
+    font-size: 0.8rem;
+    border-radius: .4rem;
+    display: inline-block;
+    color: var(--light);
+}
+
+.skills-list li:hover {
+    transform: translateY(-5px);
+    color: var(--dark);
+    background-color: var(--background-blue);
+}
