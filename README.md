@@ -1,22 +1,22 @@
-# ByteKnight - HTML and CSS Profile Card
-
 ## Table of contents
-
-
 - [Introduction](#introduction)
 - [Final Result](#final-result)
+  - [Final Code and Starter File](#final-code-and-starter-file)
 - [Creating Profile Card Component](#creating-profile-card-component)
   - [What are profile card?](#what-are-profile-card)
   - [Let's start building](#lets-start-building)
 - [Conclusion](#conclusion)
-
 
 ## Introduction
 Card components are very common in modern user interface designs and they are visible everywhere. It is a versatile and indispensable tool for presenting information and content in an engaging and visually appealing manner. In this article, we get familier with card components and learn how we can build a good looking card components by building a profile card component.
 
 ## Final Result
 ![Final Profile Card Component](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ck15rbg1uwi09f9m86ry.png)
-- **This is how It looks in the end If you want to try. You can get starter file and final code in this [GitHub repo](url)**
+- **This is how It looks in the end If you want to try. You can get starter file and final code in this**
+
+### Final Code and Starter File
+- **Code and Starter file:** [GitHub Repo](https://github.com/keshavkumarhembram/1-html-css-card-profile-card)
+- **Live Site:** [Site Link](https://keshavkumarhembram.github.io/1-html-css-card-profile-card/)
 
 ## Creating Profile Card Component
 ### What are profile card?
@@ -434,3 +434,5 @@ body {
 This the process I follow while building most the components. If you keep all the points in article you are good to go. Try building more and more projects. Practice is only way to get these right.
 
 I practice from [fontendmentor](https://www.frontendmentor.io). You can give it a try.
+
+**For any suggestion comment below. Thank you for reading**
